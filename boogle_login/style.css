@@ -1,0 +1,153 @@
+html {
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+}
+
+#main {
+  height: auto;
+  width: 370px;
+  min-height: 416px;
+  overflow-y: auto;
+  padding-top: 48px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  flex-grow: 1;
+  overflow: hidden;
+  box-sizing: inherit;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-left: 606.5px;
+  margin-right: 606.5px;
+}
+
+p {
+  color: #5f6368;
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+  line-height: 1.4286;
+}
+
+img {
+  width: 79px;
+  height: 27px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: 14px;
+}
+
+#prijava {
+  font-family: "Roboto", Arial, Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3333;
+  text-align: center;
+  color: #202124;
+  margin-bottom: 8px;
+}
+
+#google-račun {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  color: #202124;
+  margin-bottom: 60px;
+}
+
+#input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: block;
+  font: 400 16px Helvetica;
+  height: 24px;
+  width: 370px;
+  line-height: 24px;
+  margin: 0;
+  min-width: 0%;
+  outline: none;
+  padding: 0;
+  color: #202124;
+  border: 0;
+  border-bottom: 3px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+button {
+  color: #1a73e8;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Roboto", Arial, Helvetica;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+  padding: 0;
+  outline: 0;
+  text-align: left;
+  border: 0;
+  background-color: transparent;
+  white-space: normal;
+  margin-bottom: 45px;
+}
+
+#naprej {
+  float: right;
+  margin: 0px 16px 8px 16px;
+  display: inline-block;
+  box-sizing: inherit;
+  display: inline-block;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  border: 1px solid #1a73e8;
+  background-color: #1a73e8;
+  color: #fff;
+  border-radius: 2px;
+  padding-right: 24px;
+  padding: 7px 20px 7px 20px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+#naprej:hover {
+  box-shadow: 0 1px 0 #00000026;
+}
+
+#under-main {
+  margin-left: 606.5px;
+  margin-right: 606.5px;
+  margin-top: 24px;
+  display: block;
+  height: 24px;
+}
+
+#jezik {
+  height: auto;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  color: #757575;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.4;
+  text-decoration: none;
+  border: 0;
+  font-size: 12px;
+}
+
+a {
+  float: right;
+  color: #757575;
+  border-radius: 2px;
+  padding: 6px 16px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: "Roboto";
+}
