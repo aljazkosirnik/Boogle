@@ -1,0 +1,122 @@
+html {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+body {
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  top: 10px;
+  color: #000000de;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+li a {
+  color: #000000de;
+  text-decoration: none;
+}
+li a:hover {
+  color: #686868;
+  text-decoration: underline;
+}
+
+#button-prijava {
+  margin-right: 30px;
+  background-color: #4285f4;
+  color: #fff;
+  font-weight: bold;
+  line-height: 28px;
+  display: inline-block;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  padding: 0 12px;
+}
+#button-prijava:hover {
+  box-shadow: 0 1px 0 #00000026;
+}
+
+div.main {
+  text-align: center;
+}
+.logo {
+  width: 272px;
+  height: 92px;
+  margin-top: 12%;
+}
+.iskalnik {
+  width: 500px;
+  height: 44px;
+  margin-top: 30px;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0.5px #ccc;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 98% 50%;
+  font-size: 16px;
+}
+.search_button {
+  width: 132.922px;
+  height: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 29px 4px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+}
+.search_button:hover {
+  border: 1px solid #c6c6c6;
+  color: #000;
+  box-shadow: 0 0.5px 0 #00000026;
+}
+
+footer {
+  color: #0000008a;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  margin: 0;
+  border-top: 1px solid #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+p {
+  font-size: 15px;
+  margin-left: 30px;
+  padding-left: 27px;
+  text-align: left;
+  margin: 0;
+}
+ul.footer-levo {
+  border-top: 1px solid #e4e4e4;
+  text-align: left;
+}
+ul.footer-levo li {
+  padding-left: 27px;
+}
+li.footer-desno,
+li.padding-footer-desno {
+  float: right;
+}
+li.padding-footer-desno {
+  padding-right: 27px;
+}
+ul.footer-levo a {
+  color: #0000008a;
+}
